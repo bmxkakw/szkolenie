@@ -1,4 +1,4 @@
-// Passing function as an argument
+// EXERCISE 5: Passing function as an argument
 
 function toFixed (amount) {
     // write a function that returns amount rounded to 2 decimal digits
@@ -18,7 +18,3 @@ function processAmount (amount, processingFunc) {
     // In case the first argument is not a valid number, return null.
     // You can use isNaN function to validate numbers and parseFloat function to convert strings to numbers
 }
-
-/********************************************/
-
-// Returning functions from other functions

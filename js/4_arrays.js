@@ -1,3 +1,5 @@
+// EXERCISE 4
+
 // array map
 function pokemonizeAStrings (arr) {
     // write a function that will pokeminize strings in the array that start with 'a'

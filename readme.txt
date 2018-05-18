@@ -1,11 +1,11 @@
-Download and install Node.js
+1. Download and install Node.js
 
-In the command line run:
+2. Go to ./szkolenie project folder and in the command line run:
 
 npm install
 npm install -g karma-cli
 
-Run tests:
+3. Run tests:
 
 karma start
 

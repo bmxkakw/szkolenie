@@ -1,3 +1,5 @@
+// EXERCISE 4 - write functions described in /js/4_arrays.js so the tests pass
+
 describe('pokemonizeAStrings', function () {
 
     it('pokemonizes only strings starting with a', function () {
@@ -24,5 +26,3 @@ describe('womenOnly', function () {
         expect(womenOnly(names)).toEqual([ 'Anna', 'Danuta', 'Janina', 'Mariola' ]);
     });
 });
-
-// add more tests
