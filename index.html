@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+	var root = 'https://swapi.co/api/';
+	var req = new XMLHttpRequest();
+	req.open('GET', root + 'people/', true);
+	req.onreadystatechange = function (aEvt) {
+		console.log('req status is ' + req.readyState);
+		if (req.readyState == 4) {	// finished
+			if(req.status == 200) {
+				var result = JSON.parse(req.responseText).results;
+				result.forEach(function (person) {
+				document.write('<p>' + person.name + '</p>');
+				});
+			} else {
+				console.log('Error');
+			}
+		}
+	};
+	req.send(null);
+</script>
+</body>
+</html>
