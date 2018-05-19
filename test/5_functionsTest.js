@@ -1,6 +1,6 @@
 describe('functions', function () {
 
-    // EXERCISE 5: First, write here expected results, then write functions that perform desired operations. See /js/4_functions for specification
+    // EXERCISE 5: First, fill here expected results, then write functions that perform desired operations. See /js/4_functions for specification
     // of functions to be written.
     // Congrats, you're doind Test-Driven Development!
     it('processes the amounts correctly', function () {

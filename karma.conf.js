@@ -22,6 +22,10 @@ module.exports = function(config) {
 
     // list of files / patterns to exclude
     exclude: [
+        'test/**/2*',
+        'test/**/3*',
+        'test/**/4*',
+        'test/**/5*'
     ],
 
 
@@ -57,7 +61,7 @@ module.exports = function(config) {
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: [
-        // 'Chrome', 
+        // 'Chrome',
         'PhantomJS'
     ],
 

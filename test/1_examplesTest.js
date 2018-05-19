@@ -36,7 +36,8 @@ describe('Test Specification Example', function () {
         };
         expect(foo).toEqual(bar);
         // expect(foo).toBe(bar);           // UNCOMMENT this line to see how the test fails
-        // Why? Two objects are NOT the same entity, even if they look exactly the same
+        // See how the message about test gives
+        // Why the test fails? Two objects are NOT the same entity, even if they look exactly the same
 
         var message = 'foo bar baz';
         expect(message).toMatch(/bar/);
